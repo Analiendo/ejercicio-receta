@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+img {
+  width: 100%;
+
+  border-radius: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(243, 229, 216);
+
+}
+
+.preparation-time-list {
+  background-color: rgb(243, 229, 216);
+}
+
+ul {
+  margin: 50px;
+  list-style: color
+}
+
+::marker {
+  color: rgb(169, 145, 139);
+  font-weight: bold;
+}
+
+section {
+  background-color: white;
+  width: 600px;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+h3,
+h2 {
+  color: rgb(169, 145, 139)
+}
+
+table {
+  padding: 20px;
+  text-decoration: underline;
+}
