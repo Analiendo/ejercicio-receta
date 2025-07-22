@@ -5,6 +5,11 @@
 
 }
 
+h1 {
+  font-size: 35px;
+  padding: 15px;
+}
+
 img {
   width: 100%;
 
@@ -24,13 +29,14 @@ body {
 }
 
 ul {
-  margin: 50px;
+  margin: 15px;
   list-style: color
 }
 
 ::marker {
   color: rgb(169, 145, 139);
-  font-weight: bold;
+  font-weight: bolder;
+
 }
 
 section {
@@ -42,10 +48,17 @@ section {
 
 h3,
 h2 {
-  color: rgb(169, 145, 139)
+  color: rgb(169, 145, 139);
+  padding: 15px;
+
 }
 
 table {
   padding: 20px;
   text-decoration: underline;
+}
+
+h4 {
+  font weight: bold;
+  display: inline;
 }
